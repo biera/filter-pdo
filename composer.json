@@ -1,0 +1,23 @@
+{
+  "name": "biera/filter-pdo",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Kuba Biernacki",
+      "email": "kubiernacki@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Biera\\Filter\\Binding\\PDO\\": "./src"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "biera/filter": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
